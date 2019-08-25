@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Arsenal TV",
+    "type": "sports",
+    "location": "London"
+  },
+  {
+    "id": 2,
+    "title": "Chelsea TV",
+    "type": "sports",
+    "location": "London"
+  },
+  {
+    "id": 3,
+    "title": "Liverpool TV",
+    "type": "sports",
+    "location": "Liverpool"
+  },
+  {
+    "id": 4,
+    "title": "Sky News",
+    "type": "news",
+    "location": "all"
+  },
+  {
+    "id": 5,
+    "title": "Sky Sports News",
+    "type": "news",
+    "location": "all"
+  }
+]
