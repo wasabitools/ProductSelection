@@ -1,12 +1,15 @@
 main {
+  padding-left: 25%;
   text-align: center;
 }
+
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 150%;
   font-weight: 600;
 }
 ul {
+  text-align: center;
   list-style: none;
   margin: 0%;
   padding: 3%;
@@ -15,15 +18,21 @@ li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 150%;
   font-weight: 200;
-  padding: 3%;
+  padding-top: 2%;
+  margin: 0%;
 }
 #sports {
-  width: 50%;
+  width: 40%;
   float: left;
   height: 100%;
 }
 #news {
-  width: 50%;
+  width: 40%;
   float: left;
   height: 100%;
+}
+input[type="checkbox"] {
+  float: left;
+  margin: 1%;
+  transform: scale(1.5, 1.5);
 }
