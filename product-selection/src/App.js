@@ -1,11 +1,15 @@
 import React from 'react';
+import Header from './components/Header/Header'
+import Sports from './components/Sports'
+import News from './components/News'
 import './App.css';
 
 function App() {
   return (
-    <div>
-      <h1>This is a title</h1>
-      <p>This will have some text in it!!</p>
+    <div className='App'>
+      <Header/>
+      {/* <Sports />
+      <News/> */}
     </div>
      );
 }
