@@ -1,4 +1,29 @@
+main {
+  text-align: center;
+}
 h3 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: ;
+  font-size: 150%;
+  font-weight: 600;
+}
+ul {
+  list-style: none;
+  margin: 0%;
+  padding: 3%;
+}
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  font-weight: 200;
+  padding: 3%;
+}
+#sports {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+#news {
+  width: 50%;
+  float: left;
+  height: 100%;
 }

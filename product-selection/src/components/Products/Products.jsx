@@ -8,14 +8,13 @@ const parsed = JSON.parse(data)
 class Products extends Component {
   state = {
     shows: parsed
-
   }
   render() {
   
     return (
       <main>
 
-        <div className='sports'>
+        <div id='sports'>
           <h3>Sports TV</h3>
           <ul>
             {this.state.shows.map(show => {
@@ -25,7 +24,7 @@ class Products extends Component {
             })}
           </ul>
         </div>
-        <div className='news'>
+        <div id='news'>
           <h3>News TV</h3>
           <ul>
             {this.state.shows.map(show => {

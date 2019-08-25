@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './components/Header/Header'
-import Sports from './components/Products/Products'
+import Products from './components/Products/Products'
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
       <Header/>
-      <Sports />
+      <Products />
     </div>
      );
 }
